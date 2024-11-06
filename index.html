@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página do Gustavo Guanabara HTML</title>
+
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        body{
+            position: relative;
+            background-color: #C45403;
+        }
+        section>aside>h1, ul{
+            display: inline-block;
+            color: rgb(0, 0, 0);
+            font-size: 1.3em;
+        }
+        section>h1{
+            color: white;
+            
+        }
+
+        section>h1.subT{
+            margin-top: 50px;
+            padding: 5px;
+            font-size: 3em;
+        }
+        section>aside ul{
+            margin-left: 10px;
+            list-style-position: inside;
+            list-style-type: square;
+            font-size: 1.3em;
+            font-weight: bold;
+        }
+
+        section#sec00{
+            position: absolute;
+            width: 25%;
+            left: 30px;
+            padding: 15px;
+            background-color: black;
+            color: rgb(255, 255, 255);
+            text-align:center;
+            top: 360px;
+            z-index: 5;
+        }
+        section#sec01{
+            position: absolute;
+            width: 55%;
+            height: 350px;
+            left: 30px;
+            top: 10px;
+            background-color: #C45403;
+            border: 3.5px solid black;
+            z-index: 4;
+            text-align: center;
+        }
+        section#sec02{
+            position: absolute;
+            width: 50%;
+            height: 470px;
+            right: 0px;
+            background-color: #C45403;
+            border: 3.5px solid black;
+            z-index: 1;
+        }
+
+        section#sec03{
+            position: absolute;
+            right: 0px;
+            background-color: #C45403;
+            width: 52%;
+            height: 460px;
+            border: 3.5px solid black;
+            z-index: 2;
+        }
+
+        section#sec04{
+            position: absolute;
+            right: 0px;
+            background: url('../caderno.jpg') no-repeat center center;
+            background-size: cover;
+            border: 3.5px solid black;
+            width: 54%;
+            height: 450px;
+            z-index: 3;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <section id="sec01">
+        <aside>
+            <h1>MÓD. 04</h1>
+            <ul>
+                <li>CAPÍTULO 23</li>
+            </ul>
+        </aside>
+        <h1 class="subT">Criando as páginas de cada rede social</h1>
+    </section>
+    
+    <section id="sec00"><h1>AULA 06</h1></section>
+    <section id="sec02"></section>
+    <section id="sec03"></section>
+    <section id="sec04">
+        <iframe width="679" height="450" src="https://www.youtube.com/embed/ar5UB2MxraE?list=PLHz_AreHm4dkcVCk2Bn_fdVQ81Fkrh6WT" title="Criando as páginas de cada rede social - @Curso em Vídeo HTML5 e CSS3" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </section>
+</body>
+</html>
